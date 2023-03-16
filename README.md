@@ -63,11 +63,18 @@ telomere-annotator [options] -i <input_file> -o <output_directory>
 ### Options
 
 -i, --input: Path to the input genome assembly file (in FASTA format)
+
+
 -o, --output: Path to the output directory where results will be saved
+
 --min-repeat-length: Minimum length of telomeric repeats (default: 5)
+
 --max-repeat-length: Maximum length of telomeric repeats (default: 8)
+
 --min-telomere-length: Minimum length of telomeric sequences (default: 1000)
+
 --monomer: Telomere monomer sequence (TTAGGG)
+
 -v, --verbose: Display verbose output
 
 
